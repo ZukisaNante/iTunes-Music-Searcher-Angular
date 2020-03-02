@@ -10,7 +10,9 @@ export class SearchService {
 
   constructor(private httpClient: HttpClient) { }
 
-  public baseUrl = "https://itunes.apple.com/search";
+  public baseUrl ="https://itunes.apple.com/search?";
+  // "https://api.github.com/search/repositories" ;
+  // "https://itunes.apple.com/search?"
   public searchResults: any;
 
 // makes HTTP call to the api
